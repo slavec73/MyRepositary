@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище testSlavaModelContainer" CdmEntityContainer="MyEntities1">
+    <EntitySetMapping Name="MyTable">
+      <EntityTypeMapping TypeName="testSlavaModel.MyTable">
+        <MappingFragment StoreEntitySet="MyTable">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="DateOfBird" ColumnName="DateOfBird" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Task" ColumnName="Task" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tAct">
+      <EntityTypeMapping TypeName="testSlavaModel.tAct">
+        <MappingFragment StoreEntitySet="tAct">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="dateAct" ColumnName="dateAct" />
+          <ScalarProperty Name="Action" ColumnName="Action" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
